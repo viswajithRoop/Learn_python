@@ -21,7 +21,7 @@ my_height = 160
 my_weight = 55
 print(f"lets talk about {my_name}.")
 print(f"he is {my_age} years old")
-print(f"he is {my_height} inches tall.")
-print(f"he is {my_weight} pounds heavy.")
+print(f"he is {my_height} cm tall.")
+print(f"he is {my_weight} kg heavy.")
 total = my_age + my_height + my_weight
 print(f"if i add {my_age}, {my_height}, {my_weight} i will get {total}")
