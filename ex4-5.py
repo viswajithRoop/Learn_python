@@ -25,3 +25,4 @@ print(f"he is {my_height} cm tall.")
 print(f"he is {my_weight} kg heavy.")
 total = my_age + my_height + my_weight
 print(f"if i add {my_age}, {my_height}, {my_weight} i will get {total}")
+
