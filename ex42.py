@@ -30,7 +30,7 @@ class Employee(Person):
         ##self.salary has-a salary
         self.salary = salary
 
-#Fish is-a class
+#Fish is-a object
 class Fish(object):
     pass
 
@@ -51,7 +51,7 @@ satan = Cat("Satan")
 ##mary is-a Person
 mary = Person("Mary")
 
-##
+##mary has-a pet satan
 mary.pet = satan
 
 #frank is-a employee
@@ -60,12 +60,12 @@ frank = Employee("Frank", 120000)
 #frank has-a pet rover
 frank.pet = rover
 
-##
+##flipper is-a fidh
 flipper = Fish()
 
-##crouse
+##crouse is-a salmon
 crouse = Salmon()
 
-##
+##harry is-a halibut
 harry = Halibut()
 
